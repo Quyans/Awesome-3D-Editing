@@ -11,7 +11,7 @@
 
 ---
 
-**Language Versions**: **English** | [中文](README-zh.md)
+<!-- **Language Versions**: **English** | [中文](README-zh.md) -->
 
 ---
 
@@ -23,17 +23,9 @@
 	- [2023](#2023)
 - [🔬 Core Technologies](#-core-technologies)
 	- [Object Editing](#object-editing)
-		- [🏆 Key Papers](#-key-papers)
-		- [📖 Related Papers](#-related-papers)
 	- [Scene Editing](#scene-editing)
-		- [🏆 Key Papers](#-key-papers-1)
-		- [📖 Related Papers](#-related-papers-1)
 	- [Human Editing](#human-editing)
-		- [🏆 Key Papers](#-key-papers-2)
-		- [📖 Related Papers](#-related-papers-2)
 	- [Texture \& Material Editing](#texture--material-editing)
-		- [🏆 Key Papers](#-key-papers-3)
-		- [📖 Related Papers](#-related-papers-3)
 - [🎯 Application Domains](#-application-domains)
 	- [Human Editing](#human-editing-1)
 		- [Face Editing](#face-editing)
@@ -71,24 +63,12 @@
 ## 📚 Survey Papers
 
 ### 2025
-- **Edit360: 2D Image Edits to 3D Assets from Any Angle** [[Paper]](https://arxiv.org/abs/2506.10507) [[Code]](https://github.com/Edit360/Edit360) [[Project Page]](https://edit360.github.io/)
-  - *Venue: arXiv 2025*
-  - *Keywords: 2D-to-3D Editing, Multi-view Editing, 3D Assets*
-
-- **CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation** [[Paper]](https://arxiv.org/abs/2505.07003) [[Code]](https://github.com/naver/cmd) [[Project Page]](https://penghtyx.github.io/CMD/)
-  - *Venue: arXiv 2025*
-  - *Keywords: Multiview Diffusion, 3D Editing, Progressive Generation*
-
-- **VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D Space** [[Paper]](https://arxiv.org/abs/2508.19247) [[Code]](https://github.com/Nelipot-Lee/VoxHammer) [[Project Page]](https://huanngzh.github.io/VoxHammer-Page/)
-  - *Venue: arXiv 2025*
-  - *Keywords: Training-Free, 3D Space Editing, Voxel-based*
-
-- **3D Content Generation and Editing: A Survey** [[Paper]](https://arxiv.org/abs/2401.17847) [[Code]](https://github.com/awesome-3d-editing/survey) [[Project Page]](https://awesome-3d-editing.github.io/)
+- **3D Content Generation and Editing: A Survey** [[Paper]](https://arxiv.org/abs/2401.17847) [[Project Page]](https://awesome-3d-editing.github.io/)
   - *Venue: arXiv 2024*
   - *Keywords: 3D Generation, Editing, Survey*
 
 ### 2023
-- **Neural 3D Scene Reconstruction and Editing: A Survey** [[Paper]](https://arxiv.org/abs/2303.09505) [[Code]](https://github.com/awesome-3d-editing/neural-3d-survey)
+- **Neural 3D Scene Reconstruction and Editing: A Survey** [[Paper]](https://arxiv.org/abs/2303.09505)
   - *Venue: arXiv 2023*
   - *Keywords: Scene Reconstruction, Neural Rendering*
 
@@ -98,69 +78,67 @@
 
 ### Object Editing
 
-#### 🏆 Key Papers
-- **Edit360: 2D Image Edits to 3D Assets from Any Angle** [[Paper]](https://arxiv.org/abs/2506.10507) [[Code]](https://github.com/Edit360/Edit360) [[Project Page]](https://edit360.github.io/)
+- **RELATE3D: REfocusing Latent Adapter for Targeted local Enhancement and Editing in 3D Generation** [[Paper]](https://dl.acm.org/doi/pdf/10.1145/3721238.3730648)
+  - *Venue: SIGGRAPH 2025*
+  - *Keywords: 3D Object Editing*
+
+- **Edit360: 2D Image Edits to 3D Assets from Any Angle** [[Paper]](https://arxiv.org/abs/2506.10507) [[Project Page]](https://edit360.github.io/)
   - *arXiv 2025*
   - *2D-to-3D multi-view object editing*
 
-- **VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D Space** [[Paper]](https://arxiv.org/abs/2508.19247) [[Code]](https://github.com/Nelipot-Lee/VoxHammer) [[Project Page]](https://huanngzh.github.io/VoxHammer-Page/)
+- **VoxHammer: Training-Free Precise and Coherent 3D Editing in Native 3D Space** [[Paper]](https://arxiv.org/abs/2508.19247) [[Project Page]](https://huanngzh.github.io/VoxHammer-Page/)
   - *arXiv 2025*
   - *Training-free precise object editing*
 
-#### 📖 Related Papers
-- **CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation** [[Paper]](https://arxiv.org/abs/2505.07003) [[Code]](https://github.com/naver/cmd) [[Project Page]](https://penghtyx.github.io/CMD/)
+- **CMD: Controllable Multiview Diffusion for 3D Editing and Progressive Generation** [[Paper]](https://arxiv.org/abs/2505.07003) [[Project Page]](https://penghtyx.github.io/CMD/)
   - *arXiv 2025*
   - *Controllable multiview diffusion for object editing*
-- **Point-E: A System for Generating 3D Point Clouds from Complex Prompts** [[Paper]](https://arxiv.org/abs/2212.08751) [[Code]](https://github.com/openai/point-e)
+
+- **Point-E: A System for Generating 3D Point Clouds from Complex Prompts** [[Paper]](https://arxiv.org/abs/2212.08751)
   - *OpenAI*
   - *Text-driven point cloud object editing*
-- **MeshDiffusion: Score-based Generative 3D Mesh Modeling** [[Paper]](https://arxiv.org/abs/2303.08133) [[Code]](https://github.com/openai/mesh-diffusion)
+
+- **MeshDiffusion: Score-based Generative 3D Mesh Modeling** [[Paper]](https://arxiv.org/abs/2303.08133)
   - *ICLR 2023*
   - *Diffusion model-based mesh object editing*
 
 ### Scene Editing
 
-#### 🏆 Key Papers
-- **EditNeRF: Editing Neural Radiance Fields** [[Paper]](https://arxiv.org/abs/2205.02784) [[Code]](https://github.com/EditNeRF/EditNeRF) [[Demo]](https://editnerf.github.io/)
+- **EditNeRF: Editing Neural Radiance Fields** [[Paper]](https://arxiv.org/abs/2205.02784) [[Demo]](https://editnerf.github.io/)
   - *ICCV 2023*
   - *Breakthrough NeRF scene editing approach*
 
-- **Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions** [[Paper]](https://arxiv.org/abs/2303.12789) [[Code]](https://github.com/naver-ai/instruct-nerf2nerf) [[Project Page]](https://instruct-nerf2nerf.github.io/)
+- **Instruct-NeRF2NeRF: Editing 3D Scenes with Instructions** [[Paper]](https://arxiv.org/abs/2303.12789) [[Project Page]](https://instruct-nerf2nerf.github.io/)
   - *ICCV 2023*
   - *Instruction-based scene editing*
 
-#### 📖 Related Papers
-- **LocalRF: Local Radiance Fields for Real-time Editing** [[Paper]](https://arxiv.org/abs/2303.09505) [[Code]](https://github.com/naver-ai/localrf)
-- **DreamEditor: Text-Driven 3D Scene Editing with Neural Fields** [[Paper]](https://arxiv.org/abs/2306.13455) [[Code]](https://github.com/naver-ai/dreameditor)
+- **LocalRF: Local Radiance Fields for Real-time Editing** [[Paper]](https://arxiv.org/abs/2303.09505)
+- **DreamEditor: Text-Driven 3D Scene Editing with Neural Fields** [[Paper]](https://arxiv.org/abs/2306.13455)
 
 ### Human Editing
 
-#### 🏆 Key Papers
-- **FaceEdit3D: 3D Face Editing with Generative Neural Fields** [[Paper]](https://arxiv.org/abs/2303.09505) [[Code]](https://github.com/naver-ai/faceedit3d)
+- **FaceEdit3D: 3D Face Editing with Generative Neural Fields** [[Paper]](https://arxiv.org/abs/2303.09505)
   - *ICCV 2023*
   - *3D face editing with neural fields*
 
-- **HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs** [[Paper]](https://arxiv.org/abs/2201.04127) [[Code]](https://github.com/naver-ai/human-nerf)
+- **HumanNeRF: Efficiently Generated Human Radiance Field from Sparse Inputs** [[Paper]](https://arxiv.org/abs/2201.04127)
   - *CVPR 2022*
   - *Human body editing with NeRF*
 
-#### 📖 Related Papers
-- **SMPL-X: A new joint 3D model of the human body, face and hands together** [[Paper]](https://arxiv.org/abs/1907.00847) [[Code]](https://github.com/vchoutas/smplx)
-- **3D Face Reconstruction and Dense Alignment with Position Map Regression Network** [[Paper]](https://arxiv.org/abs/1803.07835) [[Code]](https://github.com/YadiraF/PRNet)
+- **SMPL-X: A new joint 3D model of the human body, face and hands together** [[Paper]](https://arxiv.org/abs/1907.00847)
+- **3D Face Reconstruction and Dense Alignment with Position Map Regression Network** [[Paper]](https://arxiv.org/abs/1803.07835)
 
 ### Texture & Material Editing
 
-#### 🏆 Key Papers
-- **Text2Tex: Text-driven Texture Synthesis via Diffusion Models** [[Paper]](https://arxiv.org/abs/2303.11396) [[Code]](https://github.com/naver-ai/text2tex)
+- **Text2Tex: Text-driven Texture Synthesis via Diffusion Models** [[Paper]](https://arxiv.org/abs/2303.11396)
   - *SIGGRAPH 2023*
   - *Text-driven texture synthesis*
 
-- **TEXTure: Text-Guided Texturing of 3D Shapes** [[Paper]](https://arxiv.org/abs/2302.01721) [[Code]](https://github.com/naver-ai/texture)
+- **TEXTure: Text-Guided Texturing of 3D Shapes** [[Paper]](https://arxiv.org/abs/2302.01721)
   - *SIGGRAPH 2023*
   - *Text-guided 3D shape texturing*
 
-#### 📖 Related Papers
-- **Neural Fields in Computer Graphics** [[Paper]](https://arxiv.org/abs/2303.09505) [[Code]](https://github.com/awesome-3d-editing/neural-fields)
+- **Neural Fields in Computer Graphics** [[Paper]](https://arxiv.org/abs/2303.09505)
   - *SIGGRAPH 2023 Course*
   - *Comprehensive introduction to material editing*
 
